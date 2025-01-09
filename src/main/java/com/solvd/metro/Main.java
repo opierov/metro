@@ -1,5 +1,7 @@
 package com.solvd.metro;
 
+import com.solvd.metro.database.Connection;
+import com.solvd.metro.database.ConnectionPool;
 import com.solvd.metro.exceptions.CapacityExceededException;
 import com.solvd.metro.exceptions.CoachFullException;
 import com.solvd.metro.exceptions.InvalidTicketException;
@@ -20,6 +22,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
+import java.util.concurrent.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -321,7 +324,7 @@ public class Main {
 
         Constructor<?> constructor = passengerClass.getConstructor(int.class, Ticket.class);
 
-        Ticket obTicket = new Ticket(101, LocalDateTime.now(), new BigDecimal("10.50"), null);
+        Ticket obTicket = new Ticket(101, LocalDateTime.now(), new BigDecimal("10.56"), null);
 
         Object passengerInstance = constructor.newInstance(1, obTicket);
 
@@ -331,5 +334,121 @@ public class Main {
 
         logger.info(result);
 
+        System.out.println("My homework 11. Threads using Runnable and Thread");
+
+        Runnable validatingTask = () -> {
+            logger.info("Ticket validation process started");
+            for (Passenger passenger : passengers) {
+                if (passenger.getTicket() == null) {
+                    logger.info("Passenger with ID: {} please, validate your train ticket", passenger.getId());
+                } else {
+                    logger.info("Passenger with ID: {} has a ticket", passenger.getId());
+                }
+            }
+            logger.info("Ticket validation process finished");
+        };
+
+        Runnable checkingTask = () -> {
+            logger.info("Checking ticket process started");
+            for (Passenger passenger : passengers) {
+                if (passenger.getTicket() != null) {
+                    logger.info("Passenger with ID: {} has a valid ticket", passenger.getId());
+                } else {
+                    logger.warn("Passenger with ID: {} penalty for without a ticket", passenger.getId());
+                }
+            }
+            logger.info("Checking ticket process finished");
+        };
+
+        Thread validatingThread = new Thread(validatingTask, "ValidatingThread");
+        Thread checkingThread = new Thread(checkingTask, "CheckingThread");
+
+        validatingThread.start();
+        checkingThread.start();
+
+        try {
+            validatingThread.join();
+            checkingThread.join();
+        } catch (InterruptedException e) {
+            logger.error("Thread interrupted: {}", e.getMessage());
+        }
+
+        logger.info("Ticket process finished");
+
+        System.out.println("My homework 11. Threads using CompletableFuture");
+
+        CompletableFuture<Void> ticketingFuture = CompletableFuture.runAsync(() -> {
+            logger.info("Verifying process started");
+            passengers.forEach(passenger -> {
+                if (passenger.getTicket() == null) {
+                    logger.info("Verifying ticket to passenger with ID: {}", passenger.getId());
+                    passenger.setTicket(new Ticket(101, LocalDateTime.now(), new BigDecimal("7.00"), null));
+                } else {
+                    logger.info("Passenger with ID: {} already verified", passenger.getId());
+                }
+            });
+            logger.info("Verifying process successful");
+        });
+
+        CompletableFuture<Void> boardingFuture = CompletableFuture.runAsync(() -> {
+            logger.info("Boarding process started");
+            passengers.forEach(passenger -> {
+                if (passenger.getTicket() != null) {
+                    logger.info("Passenger with ID: {} boarded the train", passenger.getId());
+                } else {
+                    logger.warn("Passenger with ID: {} cannot board without a ticket", passenger.getId());
+                }
+            });
+            logger.info("Boarding process successful");
+        });
+
+        CompletableFuture<Void> metroOperations = CompletableFuture.allOf(ticketingFuture, boardingFuture);
+
+        try {
+            metroOperations.get();
+        } catch (InterruptedException | ExecutionException e) {
+            logger.error("Error during operations: {}", e.getMessage());
+        }
+
+        logger.info("Check in operations successful");
+
+        System.out.println("My homework 11. Connection Pool");
+
+        ConnectionPool connectionPool = new ConnectionPool(5);
+
+        ExecutorService threadPool = Executors.newFixedThreadPool(7);
+
+        for (int i = 1; i <= 7; i++) {
+            final int threadId = i;
+            threadPool.submit(() -> {
+                try {
+                    logger.info("Thread {} attempting to acquire a connection...", threadId);
+                    Connection conn = connectionPool.acquireConnection();
+                    logger.info("Thread {} acquired {}", threadId, conn.getName());
+
+                    logger.info(conn.fetchData());
+                    Thread.sleep(2000); // Simulate task duration
+
+                    connectionPool.releaseConnection(conn);
+                    logger.info("Thread {} released {}", threadId, conn.getName());
+                } catch (InterruptedException e) {
+                    logger.error("Thread {} was interrupted: {}", threadId, e.getMessage());
+                }
+            });
+        }
+
+        threadPool.shutdown();
+        try {
+            if (!threadPool.awaitTermination(10, TimeUnit.SECONDS)) {
+                logger.warn("Some threads didn't finish within the timeout.");
+                threadPool.shutdownNow();
+            }
+        } catch (InterruptedException e) {
+            logger.error("Main thread interrupted while waiting for thread pool to terminate: {}", e.getMessage());
+            threadPool.shutdownNow();
+        }
+
+        logger.info("All threads completed");
     }
+
 }

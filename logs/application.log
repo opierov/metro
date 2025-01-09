@@ -3861,3 +3861,1639 @@
 2025-01-03 19:41:57 [main] INFO : Method: setTicket
 2025-01-03 19:41:57 [main] INFO : Method: getTicket
 2025-01-03 19:41:57 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-03T19:41:57.027250, price=10.50, pass=No Pass}}
+2025-01-07 13:52:08 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 13:52:08 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 13:52:08 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 13:52:08 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 13:52:08 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 13:52:08 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T13:52:08.004660, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 13:52:08 [main] INFO : Train Revenue: $6.50
+2025-01-07 13:52:08 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 13:52:08 [main] INFO : Train 7 has started driving!
+2025-01-07 13:52:08 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 13:52:08 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 13:52:08 [main] INFO : Conducting ticket inspection
+2025-01-07 13:52:08 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 13:52:08 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 13:52:08 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 13:52:08 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 13:52:08 [main] INFO : Express Train Operates on Stations: [CENTRAL, SOUTH, NORTH]
+2025-01-07 13:52:08 [main] INFO : Express Train Operates on Stations: [WEST, SOUTH, NORTH, EAST, CENTRAL]
+2025-01-07 13:52:08 [main] INFO : Regular train operates at NORTH
+2025-01-07 13:52:08 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 13:52:08 [main] INFO : Ticket Summary:
+2025-01-07 13:52:08 [main] INFO : Type: STANDARD
+2025-01-07 13:52:08 [main] INFO : Description: Standard Ticket
+2025-01-07 13:52:08 [main] INFO : Base Price: $5.0
+2025-01-07 13:52:08 [main] INFO : Ticket Summary:
+2025-01-07 13:52:08 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 13:52:08 [main] INFO : Description: Discounted Ticket
+2025-01-07 13:52:08 [main] INFO : Base Price: $3.5
+2025-01-07 13:52:08 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 13:52:08 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 13:52:08 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 13:52:08 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 13:52:08 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 13:52:08 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 13:52:08 [main] INFO : Default Passenger: ID = 0
+2025-01-07 13:52:08 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 13:52:08 [main] INFO : Boarding passengers...
+2025-01-07 13:52:08 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 13:52:08 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 13:52:08 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 13:52:08 [main] INFO : Boarding process completed.
+2025-01-07 13:52:08 [main] INFO : Processing passenger with ID: 10
+2025-01-07 13:52:08 [main] INFO : Processing passenger with ID: 11
+2025-01-07 13:52:08 [main] INFO : Processing passenger with ID: 12
+2025-01-07 13:52:08 [main] INFO : Station: CENTRAL
+2025-01-07 13:52:08 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 13:52:08 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 13:52:08 [main] INFO : Processing passenger ID: 10
+2025-01-07 13:52:08 [main] INFO : Passenger with ticket: 10
+2025-01-07 13:52:08 [main] INFO : Processing passenger ID: 11
+2025-01-07 13:52:08 [main] INFO : Processing passenger ID: 12
+2025-01-07 13:52:08 [main] INFO : Passenger with ticket: 12
+2025-01-07 13:52:08 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 13:52:08 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 13:52:08 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T13:52:08.018584, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T13:52:08.018602, price=8.00, pass=No Pass}}]}
+2025-01-07 13:52:08 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 13:52:08 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 13:52:08 [main] INFO : All tickets have valid prices: true
+2025-01-07 13:52:08 [main] INFO : First passenger with ticket: 10
+2025-01-07 13:52:08 [main] INFO : Welcome to the metro!
+2025-01-07 13:52:08 [main] INFO : Welcome to the metro!
+2025-01-07 13:52:08 [main] INFO : Welcome to the metro!
+2025-01-07 13:52:08 [main] INFO : Length: 21
+2025-01-07 13:52:08 [main] INFO : Field: ticket
+2025-01-07 13:52:08 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 13:52:08 [main] INFO : Method: equals
+2025-01-07 13:52:08 [main] INFO : Method: toString
+2025-01-07 13:52:08 [main] INFO : Method: hashCode
+2025-01-07 13:52:08 [main] INFO : Method: getTicket
+2025-01-07 13:52:08 [main] INFO : Method: setTicket
+2025-01-07 13:52:08 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T13:52:08.028590, price=10.50, pass=No Pass}}
+2025-01-07 13:52:08 [BoardingThread] INFO : Boarding process started.
+2025-01-07 13:52:08 [BoardingThread] INFO : Passenger with ID: 10 boarded the train.
+2025-01-07 13:52:08 [BoardingThread] WARN : Passenger with ID: 11 cannot board without a ticket.
+2025-01-07 13:52:08 [BoardingThread] INFO : Passenger with ID: 12 boarded the train.
+2025-01-07 13:52:08 [BoardingThread] INFO : Boarding process successful.
+2025-01-07 13:52:08 [main] INFO : Metro system operations completed.
+2025-01-07 13:53:33 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 13:53:33 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 13:53:33 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 13:53:33 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 13:53:33 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 13:53:33 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T13:53:33.231091, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 13:53:33 [main] INFO : Train Revenue: $6.50
+2025-01-07 13:53:33 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 13:53:33 [main] INFO : Train 7 has started driving!
+2025-01-07 13:53:33 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 13:53:33 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 13:53:33 [main] INFO : Conducting ticket inspection
+2025-01-07 13:53:33 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 13:53:33 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 13:53:33 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 13:53:33 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 13:53:33 [main] INFO : Express Train Operates on Stations: [CENTRAL, SOUTH, NORTH]
+2025-01-07 13:53:33 [main] INFO : Express Train Operates on Stations: [WEST, SOUTH, NORTH, EAST, CENTRAL]
+2025-01-07 13:53:33 [main] INFO : Regular train operates at NORTH
+2025-01-07 13:53:33 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 13:53:33 [main] INFO : Ticket Summary:
+2025-01-07 13:53:33 [main] INFO : Type: STANDARD
+2025-01-07 13:53:33 [main] INFO : Description: Standard Ticket
+2025-01-07 13:53:33 [main] INFO : Base Price: $5.0
+2025-01-07 13:53:33 [main] INFO : Ticket Summary:
+2025-01-07 13:53:33 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 13:53:33 [main] INFO : Description: Discounted Ticket
+2025-01-07 13:53:33 [main] INFO : Base Price: $3.5
+2025-01-07 13:53:33 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 13:53:33 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 13:53:33 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 13:53:33 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 13:53:33 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 13:53:33 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 13:53:33 [main] INFO : Default Passenger: ID = 0
+2025-01-07 13:53:33 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 13:53:33 [main] INFO : Boarding passengers...
+2025-01-07 13:53:33 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 13:53:33 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 13:53:33 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 13:53:33 [main] INFO : Boarding process completed.
+2025-01-07 13:53:33 [main] INFO : Processing passenger with ID: 10
+2025-01-07 13:53:33 [main] INFO : Processing passenger with ID: 11
+2025-01-07 13:53:33 [main] INFO : Processing passenger with ID: 12
+2025-01-07 13:53:33 [main] INFO : Station: CENTRAL
+2025-01-07 13:53:33 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 13:53:33 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 13:53:33 [main] INFO : Processing passenger ID: 10
+2025-01-07 13:53:33 [main] INFO : Passenger with ticket: 10
+2025-01-07 13:53:33 [main] INFO : Processing passenger ID: 11
+2025-01-07 13:53:33 [main] INFO : Processing passenger ID: 12
+2025-01-07 13:53:33 [main] INFO : Passenger with ticket: 12
+2025-01-07 13:53:33 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 13:53:33 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 13:53:33 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T13:53:33.243338, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T13:53:33.243356, price=8.00, pass=No Pass}}]}
+2025-01-07 13:53:33 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 13:53:33 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 13:53:33 [main] INFO : All tickets have valid prices: true
+2025-01-07 13:53:33 [main] INFO : First passenger with ticket: 10
+2025-01-07 13:53:33 [main] INFO : Welcome to the metro!
+2025-01-07 13:53:33 [main] INFO : Welcome to the metro!
+2025-01-07 13:53:33 [main] INFO : Welcome to the metro!
+2025-01-07 13:53:33 [main] INFO : Length: 21
+2025-01-07 13:53:33 [main] INFO : Field: ticket
+2025-01-07 13:53:33 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 13:53:33 [main] INFO : Method: equals
+2025-01-07 13:53:33 [main] INFO : Method: toString
+2025-01-07 13:53:33 [main] INFO : Method: hashCode
+2025-01-07 13:53:33 [main] INFO : Method: getTicket
+2025-01-07 13:53:33 [main] INFO : Method: setTicket
+2025-01-07 13:53:33 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T13:53:33.252058, price=10.50, pass=No Pass}}
+2025-01-07 13:53:33 [BoardingThread] INFO : Boarding process started.
+2025-01-07 13:53:33 [BoardingThread] INFO : Passenger with ID: 10 boarded the train.
+2025-01-07 13:53:33 [BoardingThread] WARN : Passenger with ID: 11 cannot board without a ticket.
+2025-01-07 13:53:33 [TicketingThread] INFO : Ticketing process started.
+2025-01-07 13:53:33 [BoardingThread] INFO : Passenger with ID: 12 boarded the train.
+2025-01-07 13:53:33 [BoardingThread] INFO : Boarding process successful.
+2025-01-07 13:53:33 [TicketingThread] INFO : Passenger with ID: 10 already has a ticket.
+2025-01-07 13:53:33 [TicketingThread] INFO : Issuing ticket to passenger with ID: 11
+2025-01-07 13:53:33 [TicketingThread] INFO : Passenger with ID: 12 already has a ticket.
+2025-01-07 13:53:33 [TicketingThread] INFO : Ticketing process completed.
+2025-01-07 13:53:33 [main] INFO : Metro system operations completed.
+2025-01-07 13:54:21 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 13:54:21 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 13:54:21 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 13:54:21 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 13:54:21 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 13:54:21 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T13:54:21.497451, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 13:54:21 [main] INFO : Train Revenue: $6.50
+2025-01-07 13:54:21 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 13:54:21 [main] INFO : Train 7 has started driving!
+2025-01-07 13:54:21 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 13:54:21 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 13:54:21 [main] INFO : Conducting ticket inspection
+2025-01-07 13:54:21 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 13:54:21 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 13:54:21 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 13:54:21 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 13:54:21 [main] INFO : Express Train Operates on Stations: [NORTH, SOUTH, CENTRAL]
+2025-01-07 13:54:21 [main] INFO : Express Train Operates on Stations: [CENTRAL, EAST, NORTH, SOUTH, WEST]
+2025-01-07 13:54:21 [main] INFO : Regular train operates at NORTH
+2025-01-07 13:54:21 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 13:54:21 [main] INFO : Ticket Summary:
+2025-01-07 13:54:21 [main] INFO : Type: STANDARD
+2025-01-07 13:54:21 [main] INFO : Description: Standard Ticket
+2025-01-07 13:54:21 [main] INFO : Base Price: $5.0
+2025-01-07 13:54:21 [main] INFO : Ticket Summary:
+2025-01-07 13:54:21 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 13:54:21 [main] INFO : Description: Discounted Ticket
+2025-01-07 13:54:21 [main] INFO : Base Price: $3.5
+2025-01-07 13:54:21 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 13:54:21 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 13:54:21 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 13:54:21 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 13:54:21 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 13:54:21 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 13:54:21 [main] INFO : Default Passenger: ID = 0
+2025-01-07 13:54:21 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 13:54:21 [main] INFO : Boarding passengers...
+2025-01-07 13:54:21 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 13:54:21 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 13:54:21 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 13:54:21 [main] INFO : Boarding process completed.
+2025-01-07 13:54:21 [main] INFO : Processing passenger with ID: 10
+2025-01-07 13:54:21 [main] INFO : Processing passenger with ID: 11
+2025-01-07 13:54:21 [main] INFO : Processing passenger with ID: 12
+2025-01-07 13:54:21 [main] INFO : Station: CENTRAL
+2025-01-07 13:54:21 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 13:54:21 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 13:54:21 [main] INFO : Processing passenger ID: 10
+2025-01-07 13:54:21 [main] INFO : Passenger with ticket: 10
+2025-01-07 13:54:21 [main] INFO : Processing passenger ID: 11
+2025-01-07 13:54:21 [main] INFO : Processing passenger ID: 12
+2025-01-07 13:54:21 [main] INFO : Passenger with ticket: 12
+2025-01-07 13:54:21 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 13:54:21 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 13:54:21 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T13:54:21.511897, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T13:54:21.511917, price=8.00, pass=No Pass}}]}
+2025-01-07 13:54:21 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 13:54:21 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 13:54:21 [main] INFO : All tickets have valid prices: true
+2025-01-07 13:54:21 [main] INFO : First passenger with ticket: 10
+2025-01-07 13:54:21 [main] INFO : Welcome to the metro!
+2025-01-07 13:54:21 [main] INFO : Welcome to the metro!
+2025-01-07 13:54:21 [main] INFO : Welcome to the metro!
+2025-01-07 13:54:21 [main] INFO : Length: 21
+2025-01-07 13:54:21 [main] INFO : Field: ticket
+2025-01-07 13:54:21 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 13:54:21 [main] INFO : Method: equals
+2025-01-07 13:54:21 [main] INFO : Method: toString
+2025-01-07 13:54:21 [main] INFO : Method: hashCode
+2025-01-07 13:54:21 [main] INFO : Method: getTicket
+2025-01-07 13:54:21 [main] INFO : Method: setTicket
+2025-01-07 13:54:21 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T13:54:21.521606, price=10.50, pass=No Pass}}
+2025-01-07 13:54:21 [TicketingThread] INFO : Ticketing process started
+2025-01-07 13:54:21 [TicketingThread] INFO : Passenger with ID: 10 already has a ticket
+2025-01-07 13:54:21 [BoardingThread] INFO : Boarding process started.
+2025-01-07 13:54:21 [TicketingThread] INFO : Issuing ticket to passenger with ID: 11
+2025-01-07 13:54:21 [TicketingThread] INFO : Passenger with ID: 12 already has a ticket
+2025-01-07 13:54:21 [BoardingThread] INFO : Passenger with ID: 10 boarded the train.
+2025-01-07 13:54:21 [TicketingThread] INFO : Ticketing process finished
+2025-01-07 13:54:21 [BoardingThread] INFO : Passenger with ID: 11 boarded the train.
+2025-01-07 13:54:21 [BoardingThread] INFO : Passenger with ID: 12 boarded the train.
+2025-01-07 13:54:21 [BoardingThread] INFO : Boarding process finished
+2025-01-07 13:54:21 [main] INFO : Metro system operations completed.
+2025-01-07 13:54:38 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 13:54:38 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 13:54:38 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 13:54:38 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 13:54:38 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 13:54:38 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T13:54:38.527875, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 13:54:38 [main] INFO : Train Revenue: $6.50
+2025-01-07 13:54:38 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 13:54:38 [main] INFO : Train 7 has started driving!
+2025-01-07 13:54:38 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 13:54:38 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 13:54:38 [main] INFO : Conducting ticket inspection
+2025-01-07 13:54:38 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 13:54:38 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 13:54:38 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 13:54:38 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 13:54:38 [main] INFO : Express Train Operates on Stations: [SOUTH, NORTH, CENTRAL]
+2025-01-07 13:54:38 [main] INFO : Express Train Operates on Stations: [EAST, CENTRAL, WEST, SOUTH, NORTH]
+2025-01-07 13:54:38 [main] INFO : Regular train operates at NORTH
+2025-01-07 13:54:38 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 13:54:38 [main] INFO : Ticket Summary:
+2025-01-07 13:54:38 [main] INFO : Type: STANDARD
+2025-01-07 13:54:38 [main] INFO : Description: Standard Ticket
+2025-01-07 13:54:38 [main] INFO : Base Price: $5.0
+2025-01-07 13:54:38 [main] INFO : Ticket Summary:
+2025-01-07 13:54:38 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 13:54:38 [main] INFO : Description: Discounted Ticket
+2025-01-07 13:54:38 [main] INFO : Base Price: $3.5
+2025-01-07 13:54:38 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 13:54:38 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 13:54:38 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 13:54:38 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 13:54:38 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 13:54:38 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 13:54:38 [main] INFO : Default Passenger: ID = 0
+2025-01-07 13:54:38 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 13:54:38 [main] INFO : Boarding passengers...
+2025-01-07 13:54:38 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 13:54:38 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 13:54:38 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 13:54:38 [main] INFO : Boarding process completed.
+2025-01-07 13:54:38 [main] INFO : Processing passenger with ID: 10
+2025-01-07 13:54:38 [main] INFO : Processing passenger with ID: 11
+2025-01-07 13:54:38 [main] INFO : Processing passenger with ID: 12
+2025-01-07 13:54:38 [main] INFO : Station: CENTRAL
+2025-01-07 13:54:38 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 13:54:38 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 13:54:38 [main] INFO : Processing passenger ID: 10
+2025-01-07 13:54:38 [main] INFO : Passenger with ticket: 10
+2025-01-07 13:54:38 [main] INFO : Processing passenger ID: 11
+2025-01-07 13:54:38 [main] INFO : Processing passenger ID: 12
+2025-01-07 13:54:38 [main] INFO : Passenger with ticket: 12
+2025-01-07 13:54:38 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 13:54:38 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 13:54:38 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T13:54:38.539173, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T13:54:38.539191, price=8.00, pass=No Pass}}]}
+2025-01-07 13:54:38 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 13:54:38 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 13:54:38 [main] INFO : All tickets have valid prices: true
+2025-01-07 13:54:38 [main] INFO : First passenger with ticket: 10
+2025-01-07 13:54:38 [main] INFO : Welcome to the metro!
+2025-01-07 13:54:38 [main] INFO : Welcome to the metro!
+2025-01-07 13:54:38 [main] INFO : Welcome to the metro!
+2025-01-07 13:54:38 [main] INFO : Length: 21
+2025-01-07 13:54:38 [main] INFO : Field: ticket
+2025-01-07 13:54:38 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 13:54:38 [main] INFO : Method: equals
+2025-01-07 13:54:38 [main] INFO : Method: toString
+2025-01-07 13:54:38 [main] INFO : Method: hashCode
+2025-01-07 13:54:38 [main] INFO : Method: getTicket
+2025-01-07 13:54:38 [main] INFO : Method: setTicket
+2025-01-07 13:54:38 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T13:54:38.547761, price=10.50, pass=No Pass}}
+2025-01-07 13:54:38 [TicketingThread] INFO : Ticketing process started
+2025-01-07 13:54:38 [BoardingThread] INFO : Boarding process started.
+2025-01-07 13:54:38 [TicketingThread] INFO : Passenger with ID: 10 already has a ticket
+2025-01-07 13:54:38 [BoardingThread] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 13:54:38 [TicketingThread] INFO : Issuing ticket to passenger with ID: 11
+2025-01-07 13:54:38 [BoardingThread] WARN : Passenger with ID: 11 cannot board without a ticket
+2025-01-07 13:54:38 [TicketingThread] INFO : Passenger with ID: 12 already has a ticket
+2025-01-07 13:54:38 [BoardingThread] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 13:54:38 [TicketingThread] INFO : Ticketing process finished
+2025-01-07 13:54:38 [BoardingThread] INFO : Boarding process finished
+2025-01-07 13:54:38 [main] INFO : Metro system operations completed.
+2025-01-07 13:57:16 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 13:57:16 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 13:57:16 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 13:57:16 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 13:57:16 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 13:57:16 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T13:57:16.339440, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 13:57:16 [main] INFO : Train Revenue: $6.50
+2025-01-07 13:57:16 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 13:57:16 [main] INFO : Train 7 has started driving!
+2025-01-07 13:57:16 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 13:57:16 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 13:57:16 [main] INFO : Conducting ticket inspection
+2025-01-07 13:57:16 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 13:57:16 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 13:57:16 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 13:57:16 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 13:57:16 [main] INFO : Express Train Operates on Stations: [SOUTH, NORTH, CENTRAL]
+2025-01-07 13:57:16 [main] INFO : Express Train Operates on Stations: [NORTH, EAST, CENTRAL, WEST, SOUTH]
+2025-01-07 13:57:16 [main] INFO : Regular train operates at NORTH
+2025-01-07 13:57:16 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 13:57:16 [main] INFO : Ticket Summary:
+2025-01-07 13:57:16 [main] INFO : Type: STANDARD
+2025-01-07 13:57:16 [main] INFO : Description: Standard Ticket
+2025-01-07 13:57:16 [main] INFO : Base Price: $5.0
+2025-01-07 13:57:16 [main] INFO : Ticket Summary:
+2025-01-07 13:57:16 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 13:57:16 [main] INFO : Description: Discounted Ticket
+2025-01-07 13:57:16 [main] INFO : Base Price: $3.5
+2025-01-07 13:57:16 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 13:57:16 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 13:57:16 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 13:57:16 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 13:57:16 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 13:57:16 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 13:57:16 [main] INFO : Default Passenger: ID = 0
+2025-01-07 13:57:16 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 13:57:16 [main] INFO : Boarding passengers...
+2025-01-07 13:57:16 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 13:57:16 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 13:57:16 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 13:57:16 [main] INFO : Boarding process completed.
+2025-01-07 13:57:16 [main] INFO : Processing passenger with ID: 10
+2025-01-07 13:57:16 [main] INFO : Processing passenger with ID: 11
+2025-01-07 13:57:16 [main] INFO : Processing passenger with ID: 12
+2025-01-07 13:57:16 [main] INFO : Station: CENTRAL
+2025-01-07 13:57:16 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 13:57:16 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 13:57:16 [main] INFO : Processing passenger ID: 10
+2025-01-07 13:57:16 [main] INFO : Passenger with ticket: 10
+2025-01-07 13:57:16 [main] INFO : Processing passenger ID: 11
+2025-01-07 13:57:16 [main] INFO : Processing passenger ID: 12
+2025-01-07 13:57:16 [main] INFO : Passenger with ticket: 12
+2025-01-07 13:57:16 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 13:57:16 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 13:57:16 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T13:57:16.351261, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T13:57:16.351279, price=8.00, pass=No Pass}}]}
+2025-01-07 13:57:16 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 13:57:16 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 13:57:16 [main] INFO : All tickets have valid prices: true
+2025-01-07 13:57:16 [main] INFO : First passenger with ticket: 10
+2025-01-07 13:57:16 [main] INFO : Welcome to the metro!
+2025-01-07 13:57:16 [main] INFO : Welcome to the metro!
+2025-01-07 13:57:16 [main] INFO : Welcome to the metro!
+2025-01-07 13:57:16 [main] INFO : Length: 21
+2025-01-07 13:57:16 [main] INFO : Field: ticket
+2025-01-07 13:57:16 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 13:57:16 [main] INFO : Method: equals
+2025-01-07 13:57:16 [main] INFO : Method: toString
+2025-01-07 13:57:16 [main] INFO : Method: hashCode
+2025-01-07 13:57:16 [main] INFO : Method: getTicket
+2025-01-07 13:57:16 [main] INFO : Method: setTicket
+2025-01-07 13:57:16 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T13:57:16.360063, price=10.50, pass=No Pass}}
+2025-01-07 13:57:16 [TicketingThread] INFO : Ticketing process started
+2025-01-07 13:57:16 [TicketingThread] INFO : Passenger with ID: 10 already has a ticket
+2025-01-07 13:57:16 [BoardingThread] INFO : Boarding process started
+2025-01-07 13:57:16 [TicketingThread] INFO : Issuing ticket to passenger with ID: 11
+2025-01-07 13:57:16 [BoardingThread] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 13:57:16 [BoardingThread] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 13:57:16 [TicketingThread] INFO : Passenger with ID: 12 already has a ticket
+2025-01-07 13:57:16 [BoardingThread] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 13:57:16 [TicketingThread] INFO : Ticketing process finished
+2025-01-07 13:57:16 [BoardingThread] INFO : Boarding process finished
+2025-01-07 13:57:16 [main] INFO : Metro system operations completed
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-1] INFO : Ticketing process started.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already has a ticket.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 11 already has a ticket.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already has a ticket.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-1] INFO : Ticketing process completed.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train.
+2025-01-07 13:57:16 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process completed.
+2025-01-07 13:57:16 [main] INFO : Metro system operations completed.
+2025-01-07 14:03:03 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 14:03:03 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 14:03:03 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 14:03:03 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 14:03:03 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 14:03:03 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T14:03:03.472619, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 14:03:03 [main] INFO : Train Revenue: $6.50
+2025-01-07 14:03:03 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 14:03:03 [main] INFO : Train 7 has started driving!
+2025-01-07 14:03:03 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 14:03:03 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 14:03:03 [main] INFO : Conducting ticket inspection
+2025-01-07 14:03:03 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 14:03:03 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 14:03:03 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 14:03:03 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 14:03:03 [main] INFO : Express Train Operates on Stations: [CENTRAL, NORTH, SOUTH]
+2025-01-07 14:03:03 [main] INFO : Express Train Operates on Stations: [CENTRAL, EAST, NORTH, SOUTH, WEST]
+2025-01-07 14:03:03 [main] INFO : Regular train operates at NORTH
+2025-01-07 14:03:03 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 14:03:03 [main] INFO : Ticket Summary:
+2025-01-07 14:03:03 [main] INFO : Type: STANDARD
+2025-01-07 14:03:03 [main] INFO : Description: Standard Ticket
+2025-01-07 14:03:03 [main] INFO : Base Price: $5.0
+2025-01-07 14:03:03 [main] INFO : Ticket Summary:
+2025-01-07 14:03:03 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 14:03:03 [main] INFO : Description: Discounted Ticket
+2025-01-07 14:03:03 [main] INFO : Base Price: $3.5
+2025-01-07 14:03:03 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 14:03:03 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 14:03:03 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 14:03:03 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 14:03:03 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 14:03:03 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 14:03:03 [main] INFO : Default Passenger: ID = 0
+2025-01-07 14:03:03 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 14:03:03 [main] INFO : Boarding passengers...
+2025-01-07 14:03:03 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 14:03:03 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 14:03:03 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 14:03:03 [main] INFO : Boarding process completed.
+2025-01-07 14:03:03 [main] INFO : Processing passenger with ID: 10
+2025-01-07 14:03:03 [main] INFO : Processing passenger with ID: 11
+2025-01-07 14:03:03 [main] INFO : Processing passenger with ID: 12
+2025-01-07 14:03:03 [main] INFO : Station: CENTRAL
+2025-01-07 14:03:03 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 14:03:03 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 14:03:03 [main] INFO : Processing passenger ID: 10
+2025-01-07 14:03:03 [main] INFO : Passenger with ticket: 10
+2025-01-07 14:03:03 [main] INFO : Processing passenger ID: 11
+2025-01-07 14:03:03 [main] INFO : Processing passenger ID: 12
+2025-01-07 14:03:03 [main] INFO : Passenger with ticket: 12
+2025-01-07 14:03:03 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 14:03:03 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 14:03:03 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T14:03:03.484031, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T14:03:03.484051, price=8.00, pass=No Pass}}]}
+2025-01-07 14:03:03 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 14:03:03 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 14:03:03 [main] INFO : All tickets have valid prices: true
+2025-01-07 14:03:03 [main] INFO : First passenger with ticket: 10
+2025-01-07 14:03:03 [main] INFO : Welcome to the metro!
+2025-01-07 14:03:03 [main] INFO : Welcome to the metro!
+2025-01-07 14:03:03 [main] INFO : Welcome to the metro!
+2025-01-07 14:03:03 [main] INFO : Length: 21
+2025-01-07 14:03:03 [main] INFO : Field: ticket
+2025-01-07 14:03:03 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 14:03:03 [main] INFO : Method: equals
+2025-01-07 14:03:03 [main] INFO : Method: toString
+2025-01-07 14:03:03 [main] INFO : Method: hashCode
+2025-01-07 14:03:03 [main] INFO : Method: getTicket
+2025-01-07 14:03:03 [main] INFO : Method: setTicket
+2025-01-07 14:03:03 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T14:03:03.494451, price=10.50, pass=No Pass}}
+2025-01-07 14:03:03 [BoardingThread] INFO : Boarding process started
+2025-01-07 14:03:03 [BoardingThread] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 14:03:03 [TicketingThread] INFO : Ticketing process started
+2025-01-07 14:03:03 [BoardingThread] WARN : Passenger with ID: 11 cannot board without a ticket
+2025-01-07 14:03:03 [TicketingThread] INFO : Passenger with ID: 10 already has a ticket
+2025-01-07 14:03:03 [BoardingThread] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 14:03:03 [TicketingThread] INFO : Issuing ticket to passenger with ID: 11
+2025-01-07 14:03:03 [BoardingThread] INFO : Boarding process finished
+2025-01-07 14:03:03 [TicketingThread] INFO : Passenger with ID: 12 already has a ticket
+2025-01-07 14:03:03 [TicketingThread] INFO : Ticketing process finished
+2025-01-07 14:03:03 [main] INFO : Metro system operations completed
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-1] INFO : Ticketing process started.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already has a ticket.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 11 already has a ticket.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already has a ticket.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-1] INFO : Ticketing process completed.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train.
+2025-01-07 14:03:03 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process completed.
+2025-01-07 14:03:03 [main] INFO : Metro system operations completed.
+2025-01-07 14:03:03 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 14:03:03 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 14:03:03 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 14:03:03 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 14:03:03 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 14:03:03 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 14:03:03 [pool-2-thread-4] INFO : Thread 4 acquired Connection-4
+2025-01-07 14:03:03 [pool-2-thread-5] INFO : Thread 5 acquired Connection-2
+2025-01-07 14:03:03 [pool-2-thread-3] INFO : Thread 3 acquired Connection-1
+2025-01-07 14:03:03 [pool-2-thread-1] INFO : Thread 1 acquired Connection-3
+2025-01-07 14:03:03 [pool-2-thread-2] INFO : Thread 2 acquired Connection-5
+2025-01-07 14:03:03 [pool-2-thread-4] INFO : Mock Data from Connection-4
+2025-01-07 14:03:03 [pool-2-thread-3] INFO : Mock Data from Connection-1
+2025-01-07 14:03:03 [pool-2-thread-5] INFO : Mock Data from Connection-2
+2025-01-07 14:03:03 [pool-2-thread-2] INFO : Mock Data from Connection-5
+2025-01-07 14:03:03 [pool-2-thread-1] INFO : Mock Data from Connection-3
+2025-01-07 14:03:03 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 14:03:05 [pool-2-thread-4] INFO : Thread 4 released Connection-4
+2025-01-07 14:03:05 [pool-2-thread-7] INFO : Thread 7 acquired Connection-2
+2025-01-07 14:03:05 [pool-2-thread-6] INFO : Thread 6 acquired Connection-4
+2025-01-07 14:03:05 [pool-2-thread-7] INFO : Mock Data from Connection-2
+2025-01-07 14:03:05 [pool-2-thread-6] INFO : Mock Data from Connection-4
+2025-01-07 14:03:05 [pool-2-thread-3] INFO : Thread 3 released Connection-1
+2025-01-07 14:03:05 [pool-2-thread-1] INFO : Thread 1 released Connection-3
+2025-01-07 14:03:05 [pool-2-thread-2] INFO : Thread 2 released Connection-5
+2025-01-07 14:03:05 [pool-2-thread-5] INFO : Thread 5 released Connection-2
+2025-01-07 14:03:07 [pool-2-thread-6] INFO : Thread 6 released Connection-4
+2025-01-07 14:03:07 [pool-2-thread-7] INFO : Thread 7 released Connection-2
+2025-01-07 14:03:07 [main] INFO : All tasks completed.
+2025-01-07 14:18:27 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 14:18:27 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 14:18:27 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 14:18:27 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 14:18:27 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 14:18:27 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T14:18:27.373896, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 14:18:27 [main] INFO : Train Revenue: $6.50
+2025-01-07 14:18:27 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 14:18:27 [main] INFO : Train 7 has started driving!
+2025-01-07 14:18:27 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 14:18:27 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 14:18:27 [main] INFO : Conducting ticket inspection
+2025-01-07 14:18:27 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 14:18:27 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 14:18:27 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 14:18:27 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 14:18:27 [main] INFO : Express Train Operates on Stations: [SOUTH, NORTH, CENTRAL]
+2025-01-07 14:18:27 [main] INFO : Express Train Operates on Stations: [NORTH, EAST, CENTRAL, WEST, SOUTH]
+2025-01-07 14:18:27 [main] INFO : Regular train operates at NORTH
+2025-01-07 14:18:27 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 14:18:27 [main] INFO : Ticket Summary:
+2025-01-07 14:18:27 [main] INFO : Type: STANDARD
+2025-01-07 14:18:27 [main] INFO : Description: Standard Ticket
+2025-01-07 14:18:27 [main] INFO : Base Price: $5.0
+2025-01-07 14:18:27 [main] INFO : Ticket Summary:
+2025-01-07 14:18:27 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 14:18:27 [main] INFO : Description: Discounted Ticket
+2025-01-07 14:18:27 [main] INFO : Base Price: $3.5
+2025-01-07 14:18:27 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 14:18:27 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 14:18:27 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 14:18:27 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 14:18:27 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 14:18:27 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 14:18:27 [main] INFO : Default Passenger: ID = 0
+2025-01-07 14:18:27 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 14:18:27 [main] INFO : Boarding passengers...
+2025-01-07 14:18:27 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 14:18:27 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 14:18:27 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 14:18:27 [main] INFO : Boarding process completed.
+2025-01-07 14:18:27 [main] INFO : Processing passenger with ID: 10
+2025-01-07 14:18:27 [main] INFO : Processing passenger with ID: 11
+2025-01-07 14:18:27 [main] INFO : Processing passenger with ID: 12
+2025-01-07 14:18:27 [main] INFO : Station: CENTRAL
+2025-01-07 14:18:27 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 14:18:27 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 14:18:27 [main] INFO : Processing passenger ID: 10
+2025-01-07 14:18:27 [main] INFO : Passenger with ticket: 10
+2025-01-07 14:18:27 [main] INFO : Processing passenger ID: 11
+2025-01-07 14:18:27 [main] INFO : Processing passenger ID: 12
+2025-01-07 14:18:27 [main] INFO : Passenger with ticket: 12
+2025-01-07 14:18:27 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 14:18:27 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 14:18:27 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T14:18:27.385599, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T14:18:27.385613, price=8.00, pass=No Pass}}]}
+2025-01-07 14:18:27 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 14:18:27 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 14:18:27 [main] INFO : All tickets have valid prices: true
+2025-01-07 14:18:27 [main] INFO : First passenger with ticket: 10
+2025-01-07 14:18:27 [main] INFO : Welcome to the metro!
+2025-01-07 14:18:27 [main] INFO : Welcome to the metro!
+2025-01-07 14:18:27 [main] INFO : Welcome to the metro!
+2025-01-07 14:18:27 [main] INFO : Length: 21
+2025-01-07 14:18:27 [main] INFO : Field: ticket
+2025-01-07 14:18:27 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 14:18:27 [main] INFO : Method: getTicket
+2025-01-07 14:18:27 [main] INFO : Method: setTicket
+2025-01-07 14:18:27 [main] INFO : Method: equals
+2025-01-07 14:18:27 [main] INFO : Method: toString
+2025-01-07 14:18:27 [main] INFO : Method: hashCode
+2025-01-07 14:18:27 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T14:18:27.393310, price=10.50, pass=No Pass}}
+2025-01-07 14:18:27 [TicketingThread] INFO : Ticketing process started
+2025-01-07 14:18:27 [BoardingThread] INFO : Boarding process started
+2025-01-07 14:18:27 [TicketingThread] INFO : Passenger with ID: 10 already has a ticket
+2025-01-07 14:18:27 [BoardingThread] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 14:18:27 [TicketingThread] INFO : Printing ticket to passenger with ID: 11
+2025-01-07 14:18:27 [BoardingThread] WARN : Passenger with ID: 11 cannot board without a ticket
+2025-01-07 14:18:27 [TicketingThread] INFO : Passenger with ID: 12 already has a ticket
+2025-01-07 14:18:27 [BoardingThread] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 14:18:27 [TicketingThread] INFO : Ticketing process finished
+2025-01-07 14:18:27 [BoardingThread] INFO : Boarding process finished
+2025-01-07 14:18:27 [main] INFO : Metro system operations completed
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-1] INFO : Ticketing process started
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started.
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already has a ticket
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 11 already has a ticket
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already has a ticket
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-1] INFO : Ticketing process completed
+2025-01-07 14:18:27 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process completed
+2025-01-07 14:18:27 [main] INFO : Metro system operations completed
+2025-01-07 14:18:27 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection:
+2025-01-07 14:18:27 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection:
+2025-01-07 14:18:27 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection:
+2025-01-07 14:18:27 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection:
+2025-01-07 14:18:27 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection:
+2025-01-07 14:18:27 [pool-2-thread-4] INFO : Thread 4 acquired Connection-2
+2025-01-07 14:18:27 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection:
+2025-01-07 14:18:27 [pool-2-thread-6] INFO : Thread 6 acquired Connection-5
+2025-01-07 14:18:27 [pool-2-thread-4] INFO : Mock Data from Connection-2
+2025-01-07 14:18:27 [pool-2-thread-2] INFO : Thread 2 acquired Connection-4
+2025-01-07 14:18:27 [pool-2-thread-6] INFO : Mock Data from Connection-5
+2025-01-07 14:18:27 [pool-2-thread-3] INFO : Thread 3 acquired Connection-3
+2025-01-07 14:18:27 [pool-2-thread-2] INFO : Mock Data from Connection-4
+2025-01-07 14:18:27 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection:
+2025-01-07 14:18:27 [pool-2-thread-3] INFO : Mock Data from Connection-3
+2025-01-07 14:18:27 [pool-2-thread-1] INFO : Thread 1 acquired Connection-1
+2025-01-07 14:18:27 [pool-2-thread-1] INFO : Mock Data from Connection-1
+2025-01-07 14:18:29 [pool-2-thread-7] INFO : Thread 7 acquired Connection-2
+2025-01-07 14:18:29 [pool-2-thread-6] INFO : Thread 6 released Connection-5
+2025-01-07 14:18:29 [pool-2-thread-7] INFO : Mock Data from Connection-2
+2025-01-07 14:18:29 [pool-2-thread-5] INFO : Thread 5 acquired Connection-3
+2025-01-07 14:18:29 [pool-2-thread-4] INFO : Thread 4 released Connection-2
+2025-01-07 14:18:29 [pool-2-thread-2] INFO : Thread 2 released Connection-4
+2025-01-07 14:18:29 [pool-2-thread-5] INFO : Mock Data from Connection-3
+2025-01-07 14:18:29 [pool-2-thread-1] INFO : Thread 1 released Connection-1
+2025-01-07 14:18:29 [pool-2-thread-3] INFO : Thread 3 released Connection-3
+2025-01-07 14:18:31 [pool-2-thread-7] INFO : Thread 7 released Connection-2
+2025-01-07 14:18:31 [pool-2-thread-5] INFO : Thread 5 released Connection-3
+2025-01-07 14:18:31 [main] INFO : All threads completed
+2025-01-07 15:22:34 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:22:34 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:22:34 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:22:34 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:22:34 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:22:34 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:22:34.558353, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:22:34 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:22:34 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:22:34 [main] INFO : Train 7 has started driving!
+2025-01-07 15:22:34 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:22:34 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:22:34 [main] INFO : Conducting ticket inspection
+2025-01-07 15:22:34 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:22:34 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:22:34 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:22:34 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:22:34 [main] INFO : Express Train Operates on Stations: [SOUTH, CENTRAL, NORTH]
+2025-01-07 15:22:34 [main] INFO : Express Train Operates on Stations: [CENTRAL, EAST, NORTH, SOUTH, WEST]
+2025-01-07 15:22:34 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:22:34 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:22:34 [main] INFO : Ticket Summary:
+2025-01-07 15:22:34 [main] INFO : Type: STANDARD
+2025-01-07 15:22:34 [main] INFO : Description: Standard Ticket
+2025-01-07 15:22:34 [main] INFO : Base Price: $5.0
+2025-01-07 15:22:34 [main] INFO : Ticket Summary:
+2025-01-07 15:22:34 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:22:34 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:22:34 [main] INFO : Base Price: $3.5
+2025-01-07 15:22:34 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:22:34 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:22:34 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:22:34 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:22:34 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:22:34 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:22:34 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:22:34 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:22:34 [main] INFO : Boarding passengers...
+2025-01-07 15:22:34 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:22:34 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:22:34 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:22:34 [main] INFO : Boarding process completed.
+2025-01-07 15:22:34 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:22:34 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:22:34 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:22:34 [main] INFO : Station: CENTRAL
+2025-01-07 15:22:34 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:22:34 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:22:34 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:22:34 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:22:34 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:22:34 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:22:34 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:22:34 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:22:34 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:22:34 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:22:34.570357, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:22:34.570373, price=8.00, pass=No Pass}}]}
+2025-01-07 15:22:34 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:22:34 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:22:34 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:22:34 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:22:34 [main] INFO : Welcome to the metro!
+2025-01-07 15:22:34 [main] INFO : Welcome to the metro!
+2025-01-07 15:22:34 [main] INFO : Welcome to the metro!
+2025-01-07 15:22:34 [main] INFO : Length: 21
+2025-01-07 15:22:34 [main] INFO : Field: ticket
+2025-01-07 15:22:34 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:22:34 [main] INFO : Method: equals
+2025-01-07 15:22:34 [main] INFO : Method: toString
+2025-01-07 15:22:34 [main] INFO : Method: hashCode
+2025-01-07 15:22:34 [main] INFO : Method: getTicket
+2025-01-07 15:22:34 [main] INFO : Method: setTicket
+2025-01-07 15:22:34 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:22:34.578370, price=10.50, pass=No Pass}}
+2025-01-07 15:22:34 [TicketingThread] INFO : Print ticket process started
+2025-01-07 15:22:34 [BoardingThread] INFO : Checking ticket process started
+2025-01-07 15:22:34 [TicketingThread] INFO : Passenger with ID: 10 already has a printed ticket
+2025-01-07 15:22:34 [BoardingThread] INFO : Passenger with ID: 10 can check-in to the train
+2025-01-07 15:22:34 [TicketingThread] INFO : Printing ticket to passenger with ID: 11
+2025-01-07 15:22:34 [BoardingThread] WARN : Passenger with ID: 11 cannot check-in to the train
+2025-01-07 15:22:34 [TicketingThread] INFO : Passenger with ID: 12 already has a printed ticket
+2025-01-07 15:22:34 [BoardingThread] INFO : Passenger with ID: 12 can check-in to the train
+2025-01-07 15:22:34 [TicketingThread] INFO : Printing process finished
+2025-01-07 15:22:34 [BoardingThread] INFO : Checking process finished
+2025-01-07 15:22:34 [main] INFO : Check-in process finished
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 11 already verified
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:22:34 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:22:34 [main] INFO : Ticket operations successful
+2025-01-07 15:22:34 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:22:34 [pool-2-thread-1] INFO : Thread 1 acquired Connection-1
+2025-01-07 15:22:34 [pool-2-thread-1] INFO : Mock Data from Connection-1
+2025-01-07 15:22:34 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:22:34 [pool-2-thread-2] INFO : Thread 2 acquired Connection-2
+2025-01-07 15:22:34 [pool-2-thread-2] INFO : Mock Data from Connection-2
+2025-01-07 15:22:34 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:22:34 [pool-2-thread-3] INFO : Thread 3 acquired Connection-3
+2025-01-07 15:22:34 [pool-2-thread-3] INFO : Mock Data from Connection-3
+2025-01-07 15:22:34 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:22:34 [pool-2-thread-4] INFO : Thread 4 acquired Connection-4
+2025-01-07 15:22:34 [pool-2-thread-4] INFO : Mock Data from Connection-4
+2025-01-07 15:22:34 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:22:34 [pool-2-thread-5] INFO : Thread 5 acquired Connection-5
+2025-01-07 15:22:34 [pool-2-thread-5] INFO : Mock Data from Connection-5
+2025-01-07 15:22:34 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:22:34 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:22:36 [pool-2-thread-4] INFO : Thread 4 released Connection-4
+2025-01-07 15:22:36 [pool-2-thread-1] INFO : Thread 1 released Connection-1
+2025-01-07 15:22:36 [pool-2-thread-6] INFO : Thread 6 acquired Connection-5
+2025-01-07 15:22:36 [pool-2-thread-6] INFO : Mock Data from Connection-5
+2025-01-07 15:22:36 [pool-2-thread-5] INFO : Thread 5 released Connection-5
+2025-01-07 15:22:36 [pool-2-thread-2] INFO : Thread 2 released Connection-2
+2025-01-07 15:22:36 [pool-2-thread-7] INFO : Thread 7 acquired Connection-4
+2025-01-07 15:22:36 [pool-2-thread-3] INFO : Thread 3 released Connection-3
+2025-01-07 15:22:36 [pool-2-thread-7] INFO : Mock Data from Connection-4
+2025-01-07 15:22:38 [pool-2-thread-6] INFO : Thread 6 released Connection-5
+2025-01-07 15:22:38 [pool-2-thread-7] INFO : Thread 7 released Connection-4
+2025-01-07 15:22:38 [main] INFO : All threads completed
+2025-01-07 15:25:30 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:25:30 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:25:30 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:25:30 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:25:30 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:25:30 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:25:30.028880, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:25:30 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:25:30 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:25:30 [main] INFO : Train 7 has started driving!
+2025-01-07 15:25:30 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:25:30 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:25:30 [main] INFO : Conducting ticket inspection
+2025-01-07 15:25:30 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:25:30 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:25:30 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:25:30 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:25:30 [main] INFO : Express Train Operates on Stations: [CENTRAL, NORTH, SOUTH]
+2025-01-07 15:25:30 [main] INFO : Express Train Operates on Stations: [NORTH, SOUTH, WEST, CENTRAL, EAST]
+2025-01-07 15:25:30 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:25:30 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:25:30 [main] INFO : Ticket Summary:
+2025-01-07 15:25:30 [main] INFO : Type: STANDARD
+2025-01-07 15:25:30 [main] INFO : Description: Standard Ticket
+2025-01-07 15:25:30 [main] INFO : Base Price: $5.0
+2025-01-07 15:25:30 [main] INFO : Ticket Summary:
+2025-01-07 15:25:30 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:25:30 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:25:30 [main] INFO : Base Price: $3.5
+2025-01-07 15:25:30 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:25:30 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:25:30 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:25:30 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:25:30 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:25:30 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:25:30 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:25:30 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:25:30 [main] INFO : Boarding passengers...
+2025-01-07 15:25:30 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:25:30 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:25:30 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:25:30 [main] INFO : Boarding process completed.
+2025-01-07 15:25:30 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:25:30 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:25:30 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:25:30 [main] INFO : Station: CENTRAL
+2025-01-07 15:25:30 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:25:30 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:25:30 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:25:30 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:25:30 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:25:30 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:25:30 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:25:30 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:25:30 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:25:30 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:25:30.040886, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:25:30.040905, price=8.00, pass=No Pass}}]}
+2025-01-07 15:25:30 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:25:30 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:25:30 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:25:30 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:25:30 [main] INFO : Welcome to the metro!
+2025-01-07 15:25:30 [main] INFO : Welcome to the metro!
+2025-01-07 15:25:30 [main] INFO : Welcome to the metro!
+2025-01-07 15:25:30 [main] INFO : Length: 21
+2025-01-07 15:25:30 [main] INFO : Field: ticket
+2025-01-07 15:25:30 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:25:30 [main] INFO : Method: equals
+2025-01-07 15:25:30 [main] INFO : Method: toString
+2025-01-07 15:25:30 [main] INFO : Method: hashCode
+2025-01-07 15:25:30 [main] INFO : Method: getTicket
+2025-01-07 15:25:30 [main] INFO : Method: setTicket
+2025-01-07 15:25:30 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:25:30.048434, price=10.50, pass=No Pass}}
+2025-01-07 15:25:30 [PrintingThread] INFO : Print ticket process started
+2025-01-07 15:25:30 [CheckingThread] INFO : Checking ticket process started
+2025-01-07 15:25:30 [PrintingThread] INFO : Passenger with ID: 10 already has a printed ticket
+2025-01-07 15:25:30 [CheckingThread] INFO : Passenger with ID: 10 can check in to the train
+2025-01-07 15:25:30 [PrintingThread] INFO : Printing ticket to passenger with ID: 11
+2025-01-07 15:25:30 [CheckingThread] WARN : Passenger with ID: 11 cannot check in to the train
+2025-01-07 15:25:30 [PrintingThread] INFO : Passenger with ID: 12 already has a printed ticket
+2025-01-07 15:25:30 [CheckingThread] INFO : Passenger with ID: 12 can check in to the train
+2025-01-07 15:25:30 [PrintingThread] INFO : Printing process finished
+2025-01-07 15:25:30 [CheckingThread] INFO : Checking process finished
+2025-01-07 15:25:30 [main] INFO : Check in process finished
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 11 already verified
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:25:30 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:25:30 [main] INFO : Ticket operations successful
+2025-01-07 15:25:30 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:25:30 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:25:30 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:25:30 [pool-2-thread-2] INFO : Thread 2 acquired Connection-2
+2025-01-07 15:25:30 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:25:30 [pool-2-thread-1] INFO : Thread 1 acquired Connection-1
+2025-01-07 15:25:30 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:25:30 [pool-2-thread-2] INFO : Mock Data from Connection-2
+2025-01-07 15:25:30 [pool-2-thread-4] INFO : Thread 4 acquired Connection-3
+2025-01-07 15:25:30 [pool-2-thread-5] INFO : Thread 5 acquired Connection-5
+2025-01-07 15:25:30 [pool-2-thread-3] INFO : Thread 3 acquired Connection-4
+2025-01-07 15:25:30 [pool-2-thread-1] INFO : Mock Data from Connection-1
+2025-01-07 15:25:30 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:25:30 [pool-2-thread-5] INFO : Mock Data from Connection-5
+2025-01-07 15:25:30 [pool-2-thread-3] INFO : Mock Data from Connection-4
+2025-01-07 15:25:30 [pool-2-thread-4] INFO : Mock Data from Connection-3
+2025-01-07 15:25:30 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:25:32 [pool-2-thread-4] INFO : Thread 4 released Connection-3
+2025-01-07 15:25:32 [pool-2-thread-6] INFO : Thread 6 acquired Connection-2
+2025-01-07 15:25:32 [pool-2-thread-3] INFO : Thread 3 released Connection-4
+2025-01-07 15:25:32 [pool-2-thread-6] INFO : Mock Data from Connection-2
+2025-01-07 15:25:32 [pool-2-thread-7] INFO : Thread 7 acquired Connection-3
+2025-01-07 15:25:32 [pool-2-thread-1] INFO : Thread 1 released Connection-1
+2025-01-07 15:25:32 [pool-2-thread-7] INFO : Mock Data from Connection-3
+2025-01-07 15:25:32 [pool-2-thread-5] INFO : Thread 5 released Connection-5
+2025-01-07 15:25:32 [pool-2-thread-2] INFO : Thread 2 released Connection-2
+2025-01-07 15:25:34 [pool-2-thread-7] INFO : Thread 7 released Connection-3
+2025-01-07 15:25:34 [pool-2-thread-6] INFO : Thread 6 released Connection-2
+2025-01-07 15:25:34 [main] INFO : All threads completed
+2025-01-07 15:27:15 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:27:15 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:27:15 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:27:15 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:27:15 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:27:15 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:27:15.899952, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:27:15 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:27:15 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:27:15 [main] INFO : Train 7 has started driving!
+2025-01-07 15:27:15 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:27:15 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:27:15 [main] INFO : Conducting ticket inspection
+2025-01-07 15:27:15 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:27:15 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:27:15 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:27:15 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:27:15 [main] INFO : Express Train Operates on Stations: [SOUTH, NORTH, CENTRAL]
+2025-01-07 15:27:15 [main] INFO : Express Train Operates on Stations: [WEST, SOUTH, NORTH, EAST, CENTRAL]
+2025-01-07 15:27:15 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:27:15 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:27:15 [main] INFO : Ticket Summary:
+2025-01-07 15:27:15 [main] INFO : Type: STANDARD
+2025-01-07 15:27:15 [main] INFO : Description: Standard Ticket
+2025-01-07 15:27:15 [main] INFO : Base Price: $5.0
+2025-01-07 15:27:15 [main] INFO : Ticket Summary:
+2025-01-07 15:27:15 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:27:15 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:27:15 [main] INFO : Base Price: $3.5
+2025-01-07 15:27:15 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:27:15 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:27:15 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:27:15 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:27:15 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:27:15 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:27:15 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:27:15 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:27:15 [main] INFO : Boarding passengers...
+2025-01-07 15:27:15 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:27:15 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:27:15 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:27:15 [main] INFO : Boarding process completed.
+2025-01-07 15:27:15 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:27:15 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:27:15 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:27:15 [main] INFO : Station: CENTRAL
+2025-01-07 15:27:15 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:27:15 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:27:15 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:27:15 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:27:15 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:27:15 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:27:15 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:27:15 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:27:15 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:27:15 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:27:15.918883, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:27:15.918905, price=8.00, pass=No Pass}}]}
+2025-01-07 15:27:15 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:27:15 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:27:15 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:27:15 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:27:15 [main] INFO : Welcome to the metro!
+2025-01-07 15:27:15 [main] INFO : Welcome to the metro!
+2025-01-07 15:27:15 [main] INFO : Welcome to the metro!
+2025-01-07 15:27:15 [main] INFO : Length: 21
+2025-01-07 15:27:15 [main] INFO : Field: ticket
+2025-01-07 15:27:15 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:27:15 [main] INFO : Method: equals
+2025-01-07 15:27:15 [main] INFO : Method: toString
+2025-01-07 15:27:15 [main] INFO : Method: hashCode
+2025-01-07 15:27:15 [main] INFO : Method: getTicket
+2025-01-07 15:27:15 [main] INFO : Method: setTicket
+2025-01-07 15:27:15 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:27:15.929908, price=10.56, pass=No Pass}}
+2025-01-07 15:27:15 [PrintingThread] INFO : Print ticket process started
+2025-01-07 15:27:15 [CheckingThread] INFO : Checking ticket process started
+2025-01-07 15:27:15 [PrintingThread] INFO : Passenger with ID: 10 already has a printed ticket
+2025-01-07 15:27:15 [CheckingThread] INFO : Passenger with ID: 10 can check in to the train
+2025-01-07 15:27:15 [PrintingThread] INFO : Printing ticket to passenger with ID: 11
+2025-01-07 15:27:15 [CheckingThread] WARN : Passenger with ID: 11 cannot check in to the train
+2025-01-07 15:27:15 [PrintingThread] INFO : Passenger with ID: 12 already has a printed ticket
+2025-01-07 15:27:15 [CheckingThread] INFO : Passenger with ID: 12 can check in to the train
+2025-01-07 15:27:15 [PrintingThread] INFO : Printing process finished
+2025-01-07 15:27:15 [CheckingThread] INFO : Checking process finished
+2025-01-07 15:27:15 [main] INFO : Check in process finished
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-2] WARN : Passenger with ID: 11 cannot board without a ticket
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-1] INFO : Verifying ticket to passenger with ID: 11
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:27:15 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:27:15 [main] INFO : Ticket operations successful
+2025-01-07 15:27:15 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:27:15 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:27:15 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:27:15 [pool-2-thread-3] INFO : Thread 3 acquired Connection-2
+2025-01-07 15:27:15 [pool-2-thread-4] INFO : Thread 4 acquired Connection-3
+2025-01-07 15:27:15 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:27:15 [pool-2-thread-4] INFO : Mock Data from Connection-3
+2025-01-07 15:27:15 [pool-2-thread-1] INFO : Thread 1 acquired Connection-1
+2025-01-07 15:27:15 [pool-2-thread-2] INFO : Thread 2 acquired Connection-4
+2025-01-07 15:27:15 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:27:15 [pool-2-thread-2] INFO : Mock Data from Connection-4
+2025-01-07 15:27:15 [pool-2-thread-3] INFO : Mock Data from Connection-2
+2025-01-07 15:27:15 [pool-2-thread-5] INFO : Thread 5 acquired Connection-5
+2025-01-07 15:27:15 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:27:15 [pool-2-thread-1] INFO : Mock Data from Connection-1
+2025-01-07 15:27:15 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:27:15 [pool-2-thread-5] INFO : Mock Data from Connection-5
+2025-01-07 15:27:17 [pool-2-thread-5] INFO : Thread 5 released Connection-5
+2025-01-07 15:27:17 [pool-2-thread-6] INFO : Thread 6 acquired Connection-5
+2025-01-07 15:27:17 [pool-2-thread-6] INFO : Mock Data from Connection-5
+2025-01-07 15:27:17 [pool-2-thread-4] INFO : Thread 4 released Connection-3
+2025-01-07 15:27:17 [pool-2-thread-7] INFO : Thread 7 acquired Connection-3
+2025-01-07 15:27:17 [pool-2-thread-2] INFO : Thread 2 released Connection-4
+2025-01-07 15:27:17 [pool-2-thread-7] INFO : Mock Data from Connection-3
+2025-01-07 15:27:17 [pool-2-thread-1] INFO : Thread 1 released Connection-1
+2025-01-07 15:27:17 [pool-2-thread-3] INFO : Thread 3 released Connection-2
+2025-01-07 15:27:19 [pool-2-thread-7] INFO : Thread 7 released Connection-3
+2025-01-07 15:27:19 [pool-2-thread-6] INFO : Thread 6 released Connection-5
+2025-01-07 15:27:19 [main] INFO : All threads completed
+2025-01-07 15:28:28 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:28:28 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:28:28 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:28:28 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:28:28 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:28:28 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:28:28.709968, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:28:28 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:28:28 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:28:28 [main] INFO : Train 7 has started driving!
+2025-01-07 15:28:28 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:28:28 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:28:28 [main] INFO : Conducting ticket inspection
+2025-01-07 15:28:28 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:28:28 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:28:28 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:28:28 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:28:28 [main] INFO : Express Train Operates on Stations: [NORTH, CENTRAL, SOUTH]
+2025-01-07 15:28:28 [main] INFO : Express Train Operates on Stations: [WEST, SOUTH, NORTH, EAST, CENTRAL]
+2025-01-07 15:28:28 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:28:28 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:28:28 [main] INFO : Ticket Summary:
+2025-01-07 15:28:28 [main] INFO : Type: STANDARD
+2025-01-07 15:28:28 [main] INFO : Description: Standard Ticket
+2025-01-07 15:28:28 [main] INFO : Base Price: $5.0
+2025-01-07 15:28:28 [main] INFO : Ticket Summary:
+2025-01-07 15:28:28 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:28:28 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:28:28 [main] INFO : Base Price: $3.5
+2025-01-07 15:28:28 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:28:28 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:28:28 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:28:28 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:28:28 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:28:28 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:28:28 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:28:28 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:28:28 [main] INFO : Boarding passengers...
+2025-01-07 15:28:28 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:28:28 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:28:28 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:28:28 [main] INFO : Boarding process completed.
+2025-01-07 15:28:28 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:28:28 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:28:28 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:28:28 [main] INFO : Station: CENTRAL
+2025-01-07 15:28:28 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:28:28 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:28:28 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:28:28 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:28:28 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:28:28 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:28:28 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:28:28 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:28:28 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:28:28 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:28:28.721455, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:28:28.721472, price=8.00, pass=No Pass}}]}
+2025-01-07 15:28:28 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:28:28 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:28:28 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:28:28 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:28:28 [main] INFO : Welcome to the metro!
+2025-01-07 15:28:28 [main] INFO : Welcome to the metro!
+2025-01-07 15:28:28 [main] INFO : Welcome to the metro!
+2025-01-07 15:28:28 [main] INFO : Length: 21
+2025-01-07 15:28:28 [main] INFO : Field: ticket
+2025-01-07 15:28:28 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:28:28 [main] INFO : Method: equals
+2025-01-07 15:28:28 [main] INFO : Method: toString
+2025-01-07 15:28:28 [main] INFO : Method: hashCode
+2025-01-07 15:28:28 [main] INFO : Method: setTicket
+2025-01-07 15:28:28 [main] INFO : Method: getTicket
+2025-01-07 15:28:28 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:28:28.729999, price=10.56, pass=No Pass}}
+2025-01-07 15:28:28 [PrintingThread] INFO : Print ticket process started
+2025-01-07 15:28:28 [CheckingThread] INFO : Checking ticket process started
+2025-01-07 15:28:28 [PrintingThread] INFO : Passenger with ID: 10 already has a printed ticket
+2025-01-07 15:28:28 [CheckingThread] INFO : Passenger with ID: 10 can check in to the train
+2025-01-07 15:28:28 [PrintingThread] INFO : Printing ticket to passenger with ID: 11
+2025-01-07 15:28:28 [CheckingThread] WARN : Passenger with ID: 11 cannot check in to the train without printed ticket
+2025-01-07 15:28:28 [PrintingThread] INFO : Passenger with ID: 12 already has a printed ticket
+2025-01-07 15:28:28 [CheckingThread] INFO : Passenger with ID: 12 can check in to the train
+2025-01-07 15:28:28 [PrintingThread] INFO : Printing process finished
+2025-01-07 15:28:28 [CheckingThread] INFO : Checking process finished
+2025-01-07 15:28:28 [main] INFO : Check in process finished
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-1] INFO : Verifying ticket to passenger with ID: 11
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:28:28 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:28:28 [main] INFO : Ticket operations successful
+2025-01-07 15:28:28 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:28:28 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:28:28 [pool-2-thread-2] INFO : Thread 2 acquired Connection-1
+2025-01-07 15:28:28 [pool-2-thread-3] INFO : Thread 3 acquired Connection-2
+2025-01-07 15:28:28 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:28:28 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:28:28 [pool-2-thread-2] INFO : Mock Data from Connection-1
+2025-01-07 15:28:28 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:28:28 [pool-2-thread-3] INFO : Mock Data from Connection-2
+2025-01-07 15:28:28 [pool-2-thread-4] INFO : Thread 4 acquired Connection-4
+2025-01-07 15:28:28 [pool-2-thread-1] INFO : Thread 1 acquired Connection-3
+2025-01-07 15:28:28 [pool-2-thread-5] INFO : Thread 5 acquired Connection-5
+2025-01-07 15:28:28 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:28:28 [pool-2-thread-4] INFO : Mock Data from Connection-4
+2025-01-07 15:28:28 [pool-2-thread-1] INFO : Mock Data from Connection-3
+2025-01-07 15:28:28 [pool-2-thread-5] INFO : Mock Data from Connection-5
+2025-01-07 15:28:28 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:28:30 [pool-2-thread-3] INFO : Thread 3 released Connection-2
+2025-01-07 15:28:30 [pool-2-thread-5] INFO : Thread 5 released Connection-5
+2025-01-07 15:28:30 [pool-2-thread-1] INFO : Thread 1 released Connection-3
+2025-01-07 15:28:30 [pool-2-thread-4] INFO : Thread 4 released Connection-4
+2025-01-07 15:28:30 [pool-2-thread-7] INFO : Thread 7 acquired Connection-5
+2025-01-07 15:28:30 [pool-2-thread-6] INFO : Thread 6 acquired Connection-3
+2025-01-07 15:28:30 [pool-2-thread-6] INFO : Mock Data from Connection-3
+2025-01-07 15:28:30 [pool-2-thread-2] INFO : Thread 2 released Connection-1
+2025-01-07 15:28:30 [pool-2-thread-7] INFO : Mock Data from Connection-5
+2025-01-07 15:28:32 [pool-2-thread-6] INFO : Thread 6 released Connection-3
+2025-01-07 15:28:32 [pool-2-thread-7] INFO : Thread 7 released Connection-5
+2025-01-07 15:28:32 [main] INFO : All threads completed
+2025-01-07 15:44:11 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:44:11 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:44:11 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:44:11 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:44:11 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:44:11 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:44:11.706776, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:44:11 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:44:11 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:44:11 [main] INFO : Train 7 has started driving!
+2025-01-07 15:44:11 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:44:11 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:44:11 [main] INFO : Conducting ticket inspection
+2025-01-07 15:44:11 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:44:11 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:44:11 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:44:11 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:44:11 [main] INFO : Express Train Operates on Stations: [SOUTH, NORTH, CENTRAL]
+2025-01-07 15:44:11 [main] INFO : Express Train Operates on Stations: [CENTRAL, WEST, SOUTH, NORTH, EAST]
+2025-01-07 15:44:11 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:44:11 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:44:11 [main] INFO : Ticket Summary:
+2025-01-07 15:44:11 [main] INFO : Type: STANDARD
+2025-01-07 15:44:11 [main] INFO : Description: Standard Ticket
+2025-01-07 15:44:11 [main] INFO : Base Price: $5.0
+2025-01-07 15:44:11 [main] INFO : Ticket Summary:
+2025-01-07 15:44:11 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:44:11 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:44:11 [main] INFO : Base Price: $3.5
+2025-01-07 15:44:11 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:44:11 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:44:11 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:44:11 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:44:11 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:44:11 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:44:11 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:44:11 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:44:11 [main] INFO : Boarding passengers...
+2025-01-07 15:44:11 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:44:11 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:44:11 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:44:11 [main] INFO : Boarding process completed.
+2025-01-07 15:44:11 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:44:11 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:44:11 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:44:11 [main] INFO : Station: CENTRAL
+2025-01-07 15:44:11 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:44:11 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:44:11 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:44:11 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:44:11 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:44:11 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:44:11 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:44:11 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:44:11 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:44:11 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:44:11.718505, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:44:11.718518, price=8.00, pass=No Pass}}]}
+2025-01-07 15:44:11 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:44:11 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:44:11 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:44:11 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:44:11 [main] INFO : Welcome to the metro!
+2025-01-07 15:44:11 [main] INFO : Welcome to the metro!
+2025-01-07 15:44:11 [main] INFO : Welcome to the metro!
+2025-01-07 15:44:11 [main] INFO : Length: 21
+2025-01-07 15:44:11 [main] INFO : Field: ticket
+2025-01-07 15:44:11 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:44:11 [main] INFO : Method: equals
+2025-01-07 15:44:11 [main] INFO : Method: toString
+2025-01-07 15:44:11 [main] INFO : Method: hashCode
+2025-01-07 15:44:11 [main] INFO : Method: getTicket
+2025-01-07 15:44:11 [main] INFO : Method: setTicket
+2025-01-07 15:44:11 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:44:11.726454, price=10.56, pass=No Pass}}
+2025-01-07 15:44:11 [PrintingThread] INFO : Ticket registration process started
+2025-01-07 15:44:11 [CheckingThread] INFO : Verifying ticket process started
+2025-01-07 15:44:11 [PrintingThread] INFO : Passenger with ID: 10 already has a registered ticket
+2025-01-07 15:44:11 [CheckingThread] INFO : Passenger with ID: 10 has a valid ticket
+2025-01-07 15:44:11 [PrintingThread] INFO : Register train ticket to passenger with ID: 11
+2025-01-07 15:44:11 [CheckingThread] WARN : Passenger with ID: 11 penalty for without a ticket
+2025-01-07 15:44:11 [PrintingThread] INFO : Passenger with ID: 12 already has a registered ticket
+2025-01-07 15:44:11 [CheckingThread] INFO : Passenger with ID: 12 has a valid ticket
+2025-01-07 15:44:11 [PrintingThread] INFO : Ticket registration process finished
+2025-01-07 15:44:11 [CheckingThread] INFO : Verifying ticket process finished
+2025-01-07 15:44:11 [main] INFO : Check in process finished
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-1] INFO : Verifying ticket to passenger with ID: 11
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:44:11 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:44:11 [main] INFO : Ticket operations successful
+2025-01-07 15:44:11 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:44:11 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:44:11 [pool-2-thread-1] INFO : Thread 1 acquired Connection-1
+2025-01-07 15:44:11 [pool-2-thread-2] INFO : Thread 2 acquired Connection-2
+2025-01-07 15:44:11 [pool-2-thread-2] INFO : Mock Data from Connection-2
+2025-01-07 15:44:11 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:44:11 [pool-2-thread-5] INFO : Thread 5 acquired Connection-3
+2025-01-07 15:44:11 [pool-2-thread-1] INFO : Mock Data from Connection-1
+2025-01-07 15:44:11 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:44:11 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:44:11 [pool-2-thread-5] INFO : Mock Data from Connection-3
+2025-01-07 15:44:11 [pool-2-thread-6] INFO : Thread 6 acquired Connection-4
+2025-01-07 15:44:11 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:44:11 [pool-2-thread-6] INFO : Mock Data from Connection-4
+2025-01-07 15:44:11 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:44:11 [pool-2-thread-3] INFO : Thread 3 acquired Connection-5
+2025-01-07 15:44:11 [pool-2-thread-3] INFO : Mock Data from Connection-5
+2025-01-07 15:44:13 [pool-2-thread-4] INFO : Thread 4 acquired Connection-1
+2025-01-07 15:44:13 [pool-2-thread-1] INFO : Thread 1 released Connection-1
+2025-01-07 15:44:13 [pool-2-thread-4] INFO : Mock Data from Connection-1
+2025-01-07 15:44:13 [pool-2-thread-6] INFO : Thread 6 released Connection-4
+2025-01-07 15:44:13 [pool-2-thread-5] INFO : Thread 5 released Connection-3
+2025-01-07 15:44:13 [pool-2-thread-7] INFO : Thread 7 acquired Connection-2
+2025-01-07 15:44:13 [pool-2-thread-2] INFO : Thread 2 released Connection-2
+2025-01-07 15:44:13 [pool-2-thread-7] INFO : Mock Data from Connection-2
+2025-01-07 15:44:13 [pool-2-thread-3] INFO : Thread 3 released Connection-5
+2025-01-07 15:44:15 [pool-2-thread-7] INFO : Thread 7 released Connection-2
+2025-01-07 15:44:15 [pool-2-thread-4] INFO : Thread 4 released Connection-1
+2025-01-07 15:44:15 [main] INFO : All threads completed
+2025-01-07 15:46:49 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:46:49 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:46:49 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:46:49 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:46:49 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:46:49 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:46:49.252234, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:46:49 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:46:49 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:46:49 [main] INFO : Train 7 has started driving!
+2025-01-07 15:46:49 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:46:49 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:46:49 [main] INFO : Conducting ticket inspection
+2025-01-07 15:46:49 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:46:49 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:46:49 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:46:49 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:46:49 [main] INFO : Express Train Operates on Stations: [NORTH, SOUTH, CENTRAL]
+2025-01-07 15:46:49 [main] INFO : Express Train Operates on Stations: [CENTRAL, EAST, NORTH, SOUTH, WEST]
+2025-01-07 15:46:49 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:46:49 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:46:49 [main] INFO : Ticket Summary:
+2025-01-07 15:46:49 [main] INFO : Type: STANDARD
+2025-01-07 15:46:49 [main] INFO : Description: Standard Ticket
+2025-01-07 15:46:49 [main] INFO : Base Price: $5.0
+2025-01-07 15:46:49 [main] INFO : Ticket Summary:
+2025-01-07 15:46:49 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:46:49 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:46:49 [main] INFO : Base Price: $3.5
+2025-01-07 15:46:49 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:46:49 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:46:49 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:46:49 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:46:49 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:46:49 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:46:49 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:46:49 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:46:49 [main] INFO : Boarding passengers...
+2025-01-07 15:46:49 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:46:49 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:46:49 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:46:49 [main] INFO : Boarding process completed.
+2025-01-07 15:46:49 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:46:49 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:46:49 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:46:49 [main] INFO : Station: CENTRAL
+2025-01-07 15:46:49 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:46:49 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:46:49 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:46:49 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:46:49 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:46:49 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:46:49 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:46:49 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:46:49 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:46:49 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:46:49.263998, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:46:49.264012, price=8.00, pass=No Pass}}]}
+2025-01-07 15:46:49 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:46:49 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:46:49 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:46:49 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:46:49 [main] INFO : Welcome to the metro!
+2025-01-07 15:46:49 [main] INFO : Welcome to the metro!
+2025-01-07 15:46:49 [main] INFO : Welcome to the metro!
+2025-01-07 15:46:49 [main] INFO : Length: 21
+2025-01-07 15:46:49 [main] INFO : Field: ticket
+2025-01-07 15:46:49 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:46:49 [main] INFO : Method: equals
+2025-01-07 15:46:49 [main] INFO : Method: toString
+2025-01-07 15:46:49 [main] INFO : Method: hashCode
+2025-01-07 15:46:49 [main] INFO : Method: getTicket
+2025-01-07 15:46:49 [main] INFO : Method: setTicket
+2025-01-07 15:46:49 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:46:49.271993, price=10.56, pass=No Pass}}
+2025-01-07 15:46:49 [PrintingThread] INFO : Ticket validation process started
+2025-01-07 15:46:49 [CheckingThread] INFO : Checking ticket process started
+2025-01-07 15:46:49 [PrintingThread] INFO : Passenger with ID: 10 has a validated ticket
+2025-01-07 15:46:49 [CheckingThread] INFO : Passenger with ID: 10 has a valid ticket
+2025-01-07 15:46:49 [PrintingThread] INFO : Passenger with ID: 11 please, validate your train ticket
+2025-01-07 15:46:49 [CheckingThread] WARN : Passenger with ID: 11 penalty for without a ticket
+2025-01-07 15:46:49 [PrintingThread] INFO : Passenger with ID: 12 has a validated ticket
+2025-01-07 15:46:49 [CheckingThread] INFO : Passenger with ID: 12 has a valid ticket
+2025-01-07 15:46:49 [PrintingThread] INFO : Ticket validation process finished
+2025-01-07 15:46:49 [CheckingThread] INFO : Checking ticket process finished
+2025-01-07 15:46:49 [main] INFO : Check in process finished
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-1] INFO : Verifying ticket to passenger with ID: 11
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:46:49 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:46:49 [main] INFO : Ticket operations successful
+2025-01-07 15:46:49 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:46:49 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:46:49 [pool-2-thread-2] INFO : Thread 2 acquired Connection-2
+2025-01-07 15:46:49 [pool-2-thread-1] INFO : Thread 1 acquired Connection-1
+2025-01-07 15:46:49 [pool-2-thread-1] INFO : Mock Data from Connection-1
+2025-01-07 15:46:49 [pool-2-thread-2] INFO : Mock Data from Connection-2
+2025-01-07 15:46:49 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:46:49 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:46:49 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:46:49 [pool-2-thread-4] INFO : Thread 4 acquired Connection-4
+2025-01-07 15:46:49 [pool-2-thread-5] INFO : Thread 5 acquired Connection-5
+2025-01-07 15:46:49 [pool-2-thread-3] INFO : Thread 3 acquired Connection-3
+2025-01-07 15:46:49 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:46:49 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:46:49 [pool-2-thread-5] INFO : Mock Data from Connection-5
+2025-01-07 15:46:49 [pool-2-thread-4] INFO : Mock Data from Connection-4
+2025-01-07 15:46:49 [pool-2-thread-3] INFO : Mock Data from Connection-3
+2025-01-07 15:46:51 [pool-2-thread-2] INFO : Thread 2 released Connection-2
+2025-01-07 15:46:51 [pool-2-thread-7] INFO : Thread 7 acquired Connection-2
+2025-01-07 15:46:51 [pool-2-thread-7] INFO : Mock Data from Connection-2
+2025-01-07 15:46:51 [pool-2-thread-1] INFO : Thread 1 released Connection-1
+2025-01-07 15:46:51 [pool-2-thread-5] INFO : Thread 5 released Connection-5
+2025-01-07 15:46:51 [pool-2-thread-6] INFO : Thread 6 acquired Connection-1
+2025-01-07 15:46:51 [pool-2-thread-4] INFO : Thread 4 released Connection-4
+2025-01-07 15:46:51 [pool-2-thread-6] INFO : Mock Data from Connection-1
+2025-01-07 15:46:51 [pool-2-thread-3] INFO : Thread 3 released Connection-3
+2025-01-07 15:46:53 [pool-2-thread-7] INFO : Thread 7 released Connection-2
+2025-01-07 15:46:53 [pool-2-thread-6] INFO : Thread 6 released Connection-1
+2025-01-07 15:46:53 [main] INFO : All threads completed
+2025-01-07 15:49:42 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:49:42 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:49:42 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:49:42 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:49:42 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:49:42 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:49:42.695735, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:49:42 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:49:42 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:49:42 [main] INFO : Train 7 has started driving!
+2025-01-07 15:49:42 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:49:42 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:49:42 [main] INFO : Conducting ticket inspection
+2025-01-07 15:49:42 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:49:42 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:49:42 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:49:42 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:49:42 [main] INFO : Express Train Operates on Stations: [NORTH, SOUTH, CENTRAL]
+2025-01-07 15:49:42 [main] INFO : Express Train Operates on Stations: [CENTRAL, EAST, NORTH, SOUTH, WEST]
+2025-01-07 15:49:42 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:49:42 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:49:42 [main] INFO : Ticket Summary:
+2025-01-07 15:49:42 [main] INFO : Type: STANDARD
+2025-01-07 15:49:42 [main] INFO : Description: Standard Ticket
+2025-01-07 15:49:42 [main] INFO : Base Price: $5.0
+2025-01-07 15:49:42 [main] INFO : Ticket Summary:
+2025-01-07 15:49:42 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:49:42 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:49:42 [main] INFO : Base Price: $3.5
+2025-01-07 15:49:42 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:49:42 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:49:42 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:49:42 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:49:42 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:49:42 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:49:42 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:49:42 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:49:42 [main] INFO : Boarding passengers...
+2025-01-07 15:49:42 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:49:42 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:49:42 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:49:42 [main] INFO : Boarding process completed.
+2025-01-07 15:49:42 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:49:42 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:49:42 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:49:42 [main] INFO : Station: CENTRAL
+2025-01-07 15:49:42 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:49:42 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:49:42 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:49:42 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:49:42 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:49:42 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:49:42 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:49:42 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:49:42 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:49:42 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:49:42.709698, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:49:42.709715, price=8.00, pass=No Pass}}]}
+2025-01-07 15:49:42 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:49:42 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:49:42 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:49:42 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:49:42 [main] INFO : Welcome to the metro!
+2025-01-07 15:49:42 [main] INFO : Welcome to the metro!
+2025-01-07 15:49:42 [main] INFO : Welcome to the metro!
+2025-01-07 15:49:42 [main] INFO : Length: 21
+2025-01-07 15:49:42 [main] INFO : Field: ticket
+2025-01-07 15:49:42 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:49:42 [main] INFO : Method: getTicket
+2025-01-07 15:49:42 [main] INFO : Method: setTicket
+2025-01-07 15:49:42 [main] INFO : Method: equals
+2025-01-07 15:49:42 [main] INFO : Method: toString
+2025-01-07 15:49:42 [main] INFO : Method: hashCode
+2025-01-07 15:49:42 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:49:42.719101, price=10.56, pass=No Pass}}
+2025-01-07 15:49:42 [CheckingThread] INFO : Checking ticket process started
+2025-01-07 15:49:42 [CheckingThread] INFO : Passenger with ID: 10 has a valid ticket
+2025-01-07 15:49:42 [ValidatingThread] INFO : Ticket validation process started
+2025-01-07 15:49:42 [CheckingThread] WARN : Passenger with ID: 11 penalty for without a ticket
+2025-01-07 15:49:42 [ValidatingThread] INFO : Passenger with ID: 10 has a ticket
+2025-01-07 15:49:42 [CheckingThread] INFO : Passenger with ID: 12 has a valid ticket
+2025-01-07 15:49:42 [ValidatingThread] INFO : Passenger with ID: 11 please, validate your train ticket
+2025-01-07 15:49:42 [CheckingThread] INFO : Checking ticket process finished
+2025-01-07 15:49:42 [ValidatingThread] INFO : Passenger with ID: 12 has a ticket
+2025-01-07 15:49:42 [ValidatingThread] INFO : Ticket validation process finished
+2025-01-07 15:49:42 [main] INFO : Ticket process finished
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-1] INFO : Verifying ticket to passenger with ID: 11
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:49:42 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:49:42 [main] INFO : Check in operations successful
+2025-01-07 15:49:42 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:49:42 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:49:42 [pool-2-thread-1] INFO : Thread 1 acquired Connection-1
+2025-01-07 15:49:42 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:49:42 [pool-2-thread-2] INFO : Thread 2 acquired Connection-2
+2025-01-07 15:49:42 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:49:42 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:49:42 [pool-2-thread-1] INFO : Mock Data from Connection-1
+2025-01-07 15:49:42 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:49:42 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:49:42 [pool-2-thread-3] INFO : Thread 3 acquired Connection-3
+2025-01-07 15:49:42 [pool-2-thread-6] INFO : Thread 6 acquired Connection-4
+2025-01-07 15:49:42 [pool-2-thread-4] INFO : Thread 4 acquired Connection-5
+2025-01-07 15:49:42 [pool-2-thread-3] INFO : Mock Data from Connection-3
+2025-01-07 15:49:42 [pool-2-thread-2] INFO : Mock Data from Connection-2
+2025-01-07 15:49:42 [pool-2-thread-6] INFO : Mock Data from Connection-4
+2025-01-07 15:49:42 [pool-2-thread-4] INFO : Mock Data from Connection-5
+2025-01-07 15:49:44 [pool-2-thread-6] INFO : Thread 6 released Connection-4
+2025-01-07 15:49:44 [pool-2-thread-5] INFO : Thread 5 acquired Connection-3
+2025-01-07 15:49:44 [pool-2-thread-7] INFO : Thread 7 acquired Connection-1
+2025-01-07 15:49:44 [pool-2-thread-5] INFO : Mock Data from Connection-3
+2025-01-07 15:49:44 [pool-2-thread-4] INFO : Thread 4 released Connection-5
+2025-01-07 15:49:44 [pool-2-thread-2] INFO : Thread 2 released Connection-2
+2025-01-07 15:49:44 [pool-2-thread-3] INFO : Thread 3 released Connection-3
+2025-01-07 15:49:44 [pool-2-thread-7] INFO : Mock Data from Connection-1
+2025-01-07 15:49:44 [pool-2-thread-1] INFO : Thread 1 released Connection-1
+2025-01-07 15:49:46 [pool-2-thread-5] INFO : Thread 5 released Connection-3
+2025-01-07 15:49:46 [pool-2-thread-7] INFO : Thread 7 released Connection-1
+2025-01-07 15:49:46 [main] INFO : All threads completed
+2025-01-07 15:58:06 [main] INFO : Passenger 1 added to coach 45
+2025-01-07 15:58:06 [main] INFO : Passenger 2 added to coach 46
+2025-01-07 15:58:06 [main] INFO : Coaches number 45 are added to the Train 7.
+2025-01-07 15:58:06 [main] INFO : Coaches number 45 are added to the Autonomous 8.
+2025-01-07 15:58:06 [main] INFO : Coaches number 46 are added to the Autonomous 8.
+2025-01-07 15:58:06 [main] INFO : Ticket issued: Ticket{id=101, issuedAt=2025-01-07T15:58:06.484878, price=6.50, pass=com.solvd.metro.permit.Pass@185a6e9}
+2025-01-07 15:58:06 [main] INFO : Train Revenue: $6.50
+2025-01-07 15:58:06 [main] INFO : Autonomous Train Revenue: $0.0
+2025-01-07 15:58:06 [main] INFO : Train 7 has started driving!
+2025-01-07 15:58:06 [main] INFO : Checking in passenger 1 in Transport 7
+2025-01-07 15:58:06 [main] INFO : Total Subway System Revenue: $6.50
+2025-01-07 15:58:06 [main] INFO : Conducting ticket inspection
+2025-01-07 15:58:06 [main] INFO : Driver Max is ready for train 7.
+2025-01-07 15:58:06 [main] INFO : Repair of trains on the Blue Line
+2025-01-07 15:58:06 [main] INFO : Trains on the Blue Line are now operational.
+2025-01-07 15:58:06 [main] INFO : Subway system open. Trains on the Blue Line are ready for service.
+2025-01-07 15:58:06 [main] INFO : Express Train Operates on Stations: [NORTH, SOUTH, CENTRAL]
+2025-01-07 15:58:06 [main] INFO : Express Train Operates on Stations: [CENTRAL, EAST, NORTH, SOUTH, WEST]
+2025-01-07 15:58:06 [main] INFO : Regular train operates at NORTH
+2025-01-07 15:58:06 [main] INFO : REGULAR Train covers more stations than EXPRESS Train.
+2025-01-07 15:58:06 [main] INFO : Ticket Summary:
+2025-01-07 15:58:06 [main] INFO : Type: STANDARD
+2025-01-07 15:58:06 [main] INFO : Description: Standard Ticket
+2025-01-07 15:58:06 [main] INFO : Base Price: $5.0
+2025-01-07 15:58:06 [main] INFO : Ticket Summary:
+2025-01-07 15:58:06 [main] INFO : Type: TRAVEL_CARD
+2025-01-07 15:58:06 [main] INFO : Description: Discounted Ticket
+2025-01-07 15:58:06 [main] INFO : Base Price: $3.5
+2025-01-07 15:58:06 [main] INFO : Final price for STANDARD ticket on weekends: $2.50
+2025-01-07 15:58:06 [main] INFO : Final price for STANDARD ticket on weekends: $7.50
+2025-01-07 15:58:06 [main] INFO : Passengers without tickets. Passenger ID: 11
+2025-01-07 15:58:06 [main] INFO : Passenger 10 has a ticket.
+2025-01-07 15:58:06 [main] INFO : Passenger 11 does not have a ticket.
+2025-01-07 15:58:06 [main] INFO : Passenger 12 has a ticket.
+2025-01-07 15:58:06 [main] INFO : Default Passenger: ID = 0
+2025-01-07 15:58:06 [main] INFO : Original Price: 5.50, Discounted Price: 4.9500
+2025-01-07 15:58:06 [main] INFO : Boarding passengers...
+2025-01-07 15:58:06 [main] INFO : Passenger 10 boarded successfully.
+2025-01-07 15:58:06 [main] INFO : Passenger 11 cannot board without a ticket.
+2025-01-07 15:58:06 [main] INFO : Passenger 12 boarded successfully.
+2025-01-07 15:58:06 [main] INFO : Boarding process completed.
+2025-01-07 15:58:06 [main] INFO : Processing passenger with ID: 10
+2025-01-07 15:58:06 [main] INFO : Processing passenger with ID: 11
+2025-01-07 15:58:06 [main] INFO : Processing passenger with ID: 12
+2025-01-07 15:58:06 [main] INFO : Station: CENTRAL
+2025-01-07 15:58:06 [main] INFO : Ticket IDs of passengers with tickets: [101, 102]
+2025-01-07 15:58:06 [main] INFO : All unique stations [CENTRAL, NORTH, SOUTH, EAST, WEST]
+2025-01-07 15:58:06 [main] INFO : Processing passenger ID: 10
+2025-01-07 15:58:06 [main] INFO : Passenger with ticket: 10
+2025-01-07 15:58:06 [main] INFO : Processing passenger ID: 11
+2025-01-07 15:58:06 [main] INFO : Processing passenger ID: 12
+2025-01-07 15:58:06 [main] INFO : Passenger with ticket: 12
+2025-01-07 15:58:06 [main] INFO : Passenger 10 has ticket price: 5.50
+2025-01-07 15:58:06 [main] INFO : Passenger 12 has ticket price: 8.00
+2025-01-07 15:58:06 [main] INFO : Grouped by ticket presence: {false=[Passenger{id=11, ticket=null}], true=[Passenger{id=10, ticket=Ticket{id=101, issuedAt=2025-01-07T15:58:06.496733, price=5.50, pass=No Pass}}, Passenger{id=12, ticket=Ticket{id=102, issuedAt=2025-01-07T15:58:06.496750, price=8.00, pass=No Pass}}]}
+2025-01-07 15:58:06 [main] INFO : Number of passengers without tickets: 1
+2025-01-07 15:58:06 [main] INFO : Any ticket priced above 7.00: true
+2025-01-07 15:58:06 [main] INFO : All tickets have valid prices: true
+2025-01-07 15:58:06 [main] INFO : First passenger with ticket: 10
+2025-01-07 15:58:06 [main] INFO : Welcome to the metro!
+2025-01-07 15:58:06 [main] INFO : Welcome to the metro!
+2025-01-07 15:58:06 [main] INFO : Welcome to the metro!
+2025-01-07 15:58:06 [main] INFO : Length: 21
+2025-01-07 15:58:06 [main] INFO : Field: ticket
+2025-01-07 15:58:06 [main] INFO : Constructor: com.solvd.metro.people.Passenger
+2025-01-07 15:58:06 [main] INFO : Method: equals
+2025-01-07 15:58:06 [main] INFO : Method: toString
+2025-01-07 15:58:06 [main] INFO : Method: hashCode
+2025-01-07 15:58:06 [main] INFO : Method: getTicket
+2025-01-07 15:58:06 [main] INFO : Method: setTicket
+2025-01-07 15:58:06 [main] INFO : Passenger{id=1, ticket=Ticket{id=101, issuedAt=2025-01-07T15:58:06.504551, price=10.56, pass=No Pass}}
+2025-01-07 15:58:06 [ValidatingThread] INFO : Ticket validation process started
+2025-01-07 15:58:06 [ValidatingThread] INFO : Passenger with ID: 10 has a ticket
+2025-01-07 15:58:06 [CheckingThread] INFO : Checking ticket process started
+2025-01-07 15:58:06 [ValidatingThread] INFO : Passenger with ID: 11 please, validate your train ticket
+2025-01-07 15:58:06 [CheckingThread] INFO : Passenger with ID: 10 has a valid ticket
+2025-01-07 15:58:06 [ValidatingThread] INFO : Passenger with ID: 12 has a ticket
+2025-01-07 15:58:06 [CheckingThread] WARN : Passenger with ID: 11 penalty for without a ticket
+2025-01-07 15:58:06 [ValidatingThread] INFO : Ticket validation process finished
+2025-01-07 15:58:06 [CheckingThread] INFO : Passenger with ID: 12 has a valid ticket
+2025-01-07 15:58:06 [CheckingThread] INFO : Checking ticket process finished
+2025-01-07 15:58:06 [main] INFO : Ticket process finished
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process started
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 10 already verified
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-1] INFO : Verifying ticket to passenger with ID: 11
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process started
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-1] INFO : Passenger with ID: 12 already verified
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-1] INFO : Verifying process successful
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 10 boarded the train
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 11 boarded the train
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-2] INFO : Passenger with ID: 12 boarded the train
+2025-01-07 15:58:06 [ForkJoinPool.commonPool-worker-2] INFO : Boarding process successful
+2025-01-07 15:58:06 [main] INFO : Check in operations successful
+2025-01-07 15:58:06 [pool-2-thread-2] INFO : Thread 2 attempting to acquire a connection...
+2025-01-07 15:58:06 [pool-2-thread-4] INFO : Thread 4 attempting to acquire a connection...
+2025-01-07 15:58:06 [pool-2-thread-3] INFO : Thread 3 attempting to acquire a connection...
+2025-01-07 15:58:06 [pool-2-thread-1] INFO : Thread 1 attempting to acquire a connection...
+2025-01-07 15:58:06 [pool-2-thread-5] INFO : Thread 5 attempting to acquire a connection...
+2025-01-07 15:58:06 [pool-2-thread-6] INFO : Thread 6 attempting to acquire a connection...
+2025-01-07 15:58:06 [pool-2-thread-7] INFO : Thread 7 attempting to acquire a connection...
+2025-01-07 15:58:06 [pool-2-thread-5] INFO : Thread 5 acquired Connection-5
+2025-01-07 15:58:06 [pool-2-thread-2] INFO : Thread 2 acquired Connection-1
+2025-01-07 15:58:06 [pool-2-thread-4] INFO : Thread 4 acquired Connection-2
+2025-01-07 15:58:06 [pool-2-thread-5] INFO : Mock Data from Connection-5
+2025-01-07 15:58:06 [pool-2-thread-1] INFO : Thread 1 acquired Connection-4
+2025-01-07 15:58:06 [pool-2-thread-2] INFO : Mock Data from Connection-1
+2025-01-07 15:58:06 [pool-2-thread-4] INFO : Mock Data from Connection-2
+2025-01-07 15:58:06 [pool-2-thread-3] INFO : Thread 3 acquired Connection-3
+2025-01-07 15:58:06 [pool-2-thread-1] INFO : Mock Data from Connection-4
+2025-01-07 15:58:06 [pool-2-thread-3] INFO : Mock Data from Connection-3
+2025-01-07 15:58:08 [pool-2-thread-6] INFO : Thread 6 acquired Connection-1
+2025-01-07 15:58:08 [pool-2-thread-2] INFO : Thread 2 released Connection-1
+2025-01-07 15:58:08 [pool-2-thread-6] INFO : Mock Data from Connection-1
+2025-01-07 15:58:08 [pool-2-thread-1] INFO : Thread 1 released Connection-4
+2025-01-07 15:58:08 [pool-2-thread-5] INFO : Thread 5 released Connection-5
+2025-01-07 15:58:08 [pool-2-thread-4] INFO : Thread 4 released Connection-2
+2025-01-07 15:58:08 [pool-2-thread-3] INFO : Thread 3 released Connection-3
+2025-01-07 15:58:08 [pool-2-thread-7] INFO : Thread 7 acquired Connection-5
+2025-01-07 15:58:08 [pool-2-thread-7] INFO : Mock Data from Connection-5
+2025-01-07 15:58:10 [pool-2-thread-6] INFO : Thread 6 released Connection-1
+2025-01-07 15:58:10 [pool-2-thread-7] INFO : Thread 7 released Connection-5
+2025-01-07 15:58:10 [main] INFO : All threads completed
