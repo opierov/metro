@@ -449,6 +449,10 @@ public class Main {
         }
 
         logger.info("All threads completed");
+
+        passengers.add(new Passenger(50, new Ticket(101, LocalDateTime.now(), new BigDecimal("5.50"), null)));
+        passengers.add(new Passenger(41, null));
+
     }
 
 }
