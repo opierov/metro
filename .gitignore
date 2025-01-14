@@ -30,3 +30,8 @@ bin/
 # Project exclude paths
 /src/main/resources/
 /target/
+
+### Custom ###
+.idea/
+.logs/
+metro.iml
