@@ -434,7 +434,6 @@ public class Main {
                 } catch (InterruptedException e) {
                     logger.error("Thread {} was interrupted: {}", threadId, e.getMessage());
             });
-        }
 
         threadPool.shutdown();
         try {
@@ -449,11 +448,6 @@ public class Main {
 
         logger.info("All threads completed");
 
-        passengers.add(new Passenger(20, new Ticket(101, LocalDateTime.now(), new BigDecimal("5.50"), null)));
-        passengers.add(new Passenger(31, null));
-        passengers.add(new Passenger(42, new Ticket(102, LocalDateTime.now(), new BigDecimal("8.00"), null)));
-
 
     }
-
 }
